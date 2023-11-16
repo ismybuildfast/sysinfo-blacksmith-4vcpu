@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "sysinfo",
+  "scripts": {
+    "build": "systeminformation info"
+  },
+  "dependencies": {
+    "systeminformation": "5.21.17"
+  }
+}

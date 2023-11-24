@@ -2,7 +2,7 @@
   "private": true,
   "name": "sysinfo",
   "scripts": {
-    "build": "cat /proc/cpuinfo && echo "cgroup info -------" && cat /proc/1/cgroup && ps aux && node sysinfo.js"
+    "build": "cat /proc/cpuinfo && echo 'cgroup info -------' && cat /proc/1/cgroup && ps aux && node sysinfo.js"
   },
   "dependencies": {
     "systeminformation": "5.21.17"
